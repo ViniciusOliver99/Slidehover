@@ -1,0 +1,58 @@
+body{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(800deg, rgb(0, 26, 255) 1%, rgb(2, 255, 65) 99% );
+
+}
+
+
+input{
+    display: none;
+}
+.content{
+    height: 550px;
+    width: 915px;
+    border-radius: 20px;
+    position: absolute;
+    overflow: hidden;
+    top: 17%;
+    left: 16%;
+    box-shadow: 0 0px 20px 0 rgb(0, 0, 0);
+    display: flex;
+}
+
+.nav{
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    top: 80%;
+    transform: translate(-50%);
+    display: flex;
+}
+
+.bar{
+    width: 55px;
+    height: 25px;
+    border: 2px solid #ffff;
+    border-radius: 5px;
+    margin: 5px;
+    transition: .6s;
+}
+
+.bar:hover{
+    background-color: aliceblue;
+}
+
+.slide{
+    display: flex;
+    width: 200%;
+    height: 100%;
+    margin-left:-1%;
+    transition: .4s;
+}
+
+.slide:hover{
+    margin-left:-110%;
+}
